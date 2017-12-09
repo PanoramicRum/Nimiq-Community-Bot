@@ -1,0 +1,134 @@
+1:
+ id: "1"
+ answer: "The Luna Testnet is a demonstration of what's possible with Nimiq's unique Browser-based approach. The Testnet lets you mine, receive and send transactions in your Browser just by opening a [webpage](https://nimiq.com/miner). Luna is the second version of our Testnet. You can learn more about it [here](https://medium.com/nimiq-network/introducing-luna-fa0a845fd33e). The NIM you mine or transact in the Testnet are Luna NIM. **Luna NIM hold no intrinsic value and are used only for testing.**"
+ words:
+  - lunanim
+  - testnet
+  - worth
+2:
+ id: "2"
+ answer: "Nimiq Exchange Token (NET) is an ERC-20 (Ethereum based) token issued during the __contribution period__. NET is a temporary token that will be exchanged for Nimiq (NIM) shortly before the launch of the Nimiq Mainnet. A total of 10 500 000 NET were issued at a rate of 175 NET = 1 ETH."
+ words:
+  - net
+  - erc20
+3:
+ id: "3"
+ answer: "NET Tokens are currently being traded on [Liqui](https://liqui.io/) and [EtherDelta](https://etherdelta.com/). We will inform of any new exchanges that list NET."
+ words:
+  - Exchange
+  - exchanges
+  - trade
+  - buy
+4:
+ id: "4"
+ answer: "NIM will be the token used in the Nimiq Blockchain. The Nimiq Blockchain is still under development (have a look at our current Testnet [here](https://nimiq.com/miner)). Before we launch the final version of the Nimiq Blockchain we will provide an easy-to-use web application to swap your NET for NIM at a rate of 10 NET = 1 NIM. This application will let you create a wallet in the Nimiq Blockchain, respective NIM will be added to that address in the Genesis Block."
+ words:
+  - nim
+  - nimiq
+  - redeeming
+  - redeem
+  - convert
+  - become
+5:
+ id: "5"
+ answer: "Nimiq is a Browser-based Blockchain designed for simplicity. Nimiq’s reason of existence is to bring the benefits of blockchain technology to humankind. To achieve that purpose Nimiq has been built from the ground up to conquer the barriers that inhibit the mainstream adoption of blockchain technologies. Nimiq is encompassed by a strong philanthropic mindset, it will always remain open-source and community-driven."
+ words:
+  - nimiq
+  - about
+  - vision 
+6:
+ id: "6"
+ answer: "Main differentiators of Nimiq: \n- Nimiqs single purpose is to solve the payment protocol problem. Simple, fast and secure payments from User A to User B. \n-Browser-based and installation-free since it is written in Javascript ES6 and communicates via WebSockets + WebRTC for connecting to the network without a trusted third party. \n-Light clients allow you to establish Blockchain consensus in seconds, requiring less download data than a song.\n-Near instant transactions via off-chain transactions.\n-Long-term commitment and good cause contribution embedded into the Genesis-Block." 
+ words:
+  - nimiq
+  - differenciators
+  - difference
+  - special
+  - different
+  - unique
+7:
+ id: "7" 
+ answer: "The team is currently based in a secluded coworking space in Costa Rica, where Robin Linus conceived the original design of the Nimiq Blockchain.\nThe team is formed mostly by German Developers and a couple of Costarrican Engineers. We also have offices in Germany too since a lot of our team is based there and having our team work in different timezones enable us to get work done around the clock.\n
+You can learn more of the team and our unique focus-centric methodologies on our [Youtube Channel](https://www.youtube.com/channel/UCJ1qu3KXwfmkGwBkU8F1jQg)."
+ words:
+  - where
+  - based
+  - office
+8:
+ id: "8"
+ answer: "Official information is published on our Blog and Twitter account. You can also join our [Telegram](https://telegram.me/Nimiq), [Discord](https://discord.gg/55rHkGz) or [WeChat](https://nimiq.com/static/images/wechat-qr.png) groups to be a part of our fast growing community. If you still want more you can also find us on [Reddit](reddit.com/r/nimiq) and [Steemit](https://steemit.com/@nimiq)."
+ words:
+  - learn
+  - community
+  - more
+  - discord
+9:
+ id: "9"
+ answer: "Each time you open the Testnet with a new Browser it will create a new wallet (Private/Public keys) for you and store them in your browser using the Web Storage API."
+ words: 
+  - new
+  - wallet
+  - open
+  - website
+  - create
+10:
+ id: "10"
+ answer: "The content of your wallet can't be cleared if you delete your cookies. The only way for your browser to delete your wallet is by deleting offline data."
+ words: 
+  - cookies
+  - erase
+  - delete
+  - clear
+11: 
+ id: "11"
+ answer: "An import/export tool is currently in our roadmap. For now you can use your browser's developer console (open it by hitting F12).\n\n**Export**:\n$.wallet.dump();\n\n**Import:**\n(new Nimiq.WalletStore())\n.then(walletStore => {\n    const keys = Nimiq.KeyPair.fromHex('<the wallet seed you got by exporting>');\n    return walletStore.put('keys', keys);\n}).then(() => window.location.reload());\n\n**Note that importing a wallet overwrites your current wallet, so be sure to export your current wallet first.**"
+ words: 
+  - export
+  - import
+  - restore
+  - store
+  - wallet
+  - key
+12:
+ id: "12"
+ answer: "Nimiq is not browser only, we designed Nimiq to be able to run in your Browser without extra software. That doesn’t mean it works only in your Browser. You can use any device that supports NodeJS to run a [Backbone Client](https://github.com/nimiq-network/core#run-nodejs-client)."
+ words:
+  - only
+  - browser
+  - browsers
+13: 
+ id: "13"
+ answer: "We are very excited about PoS technology but we feel it still needs more research and testing before being introduced in worldwide environment. We are considering its use in a later stage of the Nimiq Blockchain but this is yet to be decided." 
+ words:
+  - pos
+  - stake
+14:
+ id: "14"
+ answer: "The parameters of the Nimiq Blockchain are:\n-Block time: 1 minute (inspired by the results of On the Security and Performance of Proof of Work Blockchains).\n-Block reward: starts with 5 Nimiq (NIM); halves every ~2'100'000 blocks. This approach models Bitcoin's approaccnh, while taking into account that Nimiq'ss block time is 10 times faster.\n-Max Block size: 1 MB\n-Difficulty adjustment: Every 10 blocks\n-Ttotal supply: 21 Mio Coins divisible by 10^8 just like Bitcoin)\nNote that these are the current parameters of the Testnet. The parameters for the MainNet will be adapted based on the gained experience from the Testnet."
+ words:
+  - nimiq
+  - parameters
+  - block
+  - time
+  - reward
+  - max
+  - time 
+15:
+ id: "15"
+ answer: "You can mine with a Backbone Client. Any server or low-end device that runs NodeJS can mine Nimiq."
+ words: 
+  - mine
+  - cli
+  - client
+  - console
+  - without
+  - browser
+16:
+ id: "16"
+ answer: "Yes, you can mine with the same key in more than one device. You would just need to export your private key and import it in any other Browser or Backbone client."
+ words:
+  - mine
+  - two
+  - browsers
+  - more
+  - one
