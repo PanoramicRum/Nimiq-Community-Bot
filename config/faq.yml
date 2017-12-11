@@ -31,7 +31,7 @@
   - become
 5:
  id: "5"
- answer: "Nimiq is a Browser-based Blockchain designed for simplicity. Nimiq’s reason of existence is to bring the benefits of blockchain technology to humankind. To achieve that purpose Nimiq has been built from the ground up to conquer the barriers that inhibit the mainstream adoption of blockchain technologies. Nimiq is encompassed by a strong philanthropic mindset, it will always remain open-source and community-driven."
+ answer: "Nimiq is a Browser-based Blockchain designed for simplicity. Nimiq's reason of existence is to bring the benefits of blockchain technology to humankind. To achieve that purpose Nimiq has been built from the ground up to conquer the barriers that inhibit the mainstream adoption of blockchain technologies. Nimiq is encompassed by a strong philanthropic mindset, it will always remain open-source and community-driven."
  words:
   - nimiq
   - about
@@ -91,7 +91,7 @@ You can learn more of the team and our unique focus-centric methodologies on our
   - key
 12:
  id: "12"
- answer: "Nimiq is not browser only, we designed Nimiq to be able to run in your Browser without extra software. That doesn’t mean it works only in your Browser. You can use any device that supports NodeJS to run a [Backbone Client](https://github.com/nimiq-network/core#run-nodejs-client)."
+ answer: "Nimiq is not browser only, we designed Nimiq to be able to run in your Browser without extra software. That doesn't mean it works only in your Browser. You can use any device that supports NodeJS to run a [Backbone Client](https://github.com/nimiq-network/core#run-nodejs-client)."
  words:
   - only
   - browser
@@ -104,7 +104,7 @@ You can learn more of the team and our unique focus-centric methodologies on our
   - stake
 14:
  id: "14"
- answer: "The parameters of the Nimiq Blockchain are:\n-Block time: 1 minute (inspired by the results of On the Security and Performance of Proof of Work Blockchains).\n-Block reward: starts with 5 Nimiq (NIM); halves every ~2'100'000 blocks. This approach models Bitcoin's approaccnh, while taking into account that Nimiq'ss block time is 10 times faster.\n-Max Block size: 1 MB\n-Difficulty adjustment: Every 10 blocks\n-Ttotal supply: 21 Mio Coins divisible by 10^8 just like Bitcoin)\nNote that these are the current parameters of the Testnet. The parameters for the MainNet will be adapted based on the gained experience from the Testnet."
+ answer: "The parameters of the Nimiq Blockchain are:\n-Block time: 1 minute (inspired by the results of On the Security and Performance of Proof of Work Blockchains).\n-Block reward: starts with 5 Nimiq (NIM); halves every ~2'100'000 blocks. This approach models Bitcoin's approaccnh, while taking into account that Nimiq's block time is 10 times faster.\n-Max Block size: 1 MB\n-Difficulty adjustment: Every 10 blocks\n-Ttotal supply: 21 Mio Coins divisible by 10^8 just like Bitcoin)\nNote that these are the current parameters of the Testnet. The parameters for the MainNet will be adapted based on the gained experience from the Testnet."
  words:
   - nimiq
   - parameters
