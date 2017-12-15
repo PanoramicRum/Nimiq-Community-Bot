@@ -1,5 +1,6 @@
 def get_faq(bot, update, args):
 	import yaml
+	args = [re.sub(r'[^a-zA-Z0-9_\-$]', r'', arg)[:100] for arg in args]
 	key_max = 0
 	faq_file = 'config/faq.yml'
 	score_dict = {'':''}
