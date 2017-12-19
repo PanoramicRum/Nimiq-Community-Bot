@@ -2,6 +2,8 @@ def get_net(bot, update, args):
 	import json
 	import requests
 	import yaml
+	import re
+	args = [re.sub(r'[^a-zA-Z0-9_\-$]', r'', arg)[:100] for arg in args]
 	dontknow = "Sorry. I don't know that information." 
 	ethdiv = 1000000000000000000
 	answer = dontknow
