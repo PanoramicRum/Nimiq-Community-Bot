@@ -144,3 +144,18 @@ You can learn more of the team and our unique focus-centric methodologies on our
  words:
   - when
   - lambo
+20:
+ id: "20"
+ answer: "Check out the community benchmark at: http://nimiq.community/benchmark/"
+ words:
+  - benchmark
+  - CPU
+  - mining
+21:
+ id: "21"
+ answer: "Check out this awesome guide made by Porkachu at: http://nimiq.community/blog/setting-up-nodejs_miner/"
+ words:
+  - node
+  - nodejs
+  - miner
+  - guide
